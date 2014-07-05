@@ -1,0 +1,34 @@
+div.header2 {
+	font-size:150%;
+	font-weight:bold;
+	color:blue;
+	
+}
+
+div.normal {
+	
+}
+
+p{color:black;
+text-align:left;
+margin-left:2cm;
+font-weight:bold;
+font-size:200%;}
+
+p.normal {
+	color:black;
+	font-weight:normal;
+	font:15pt Helvetica;
+}
+input#description {
+	height:100px;
+	
+	
+}
+p#description {
+	vertical-align:top;
+	
+}
+td#description {
+	vertical-align:top;
+}

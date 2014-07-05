@@ -1,0 +1,11 @@
+DirectoryIndex index.php
+RewriteEngine on
+
+Options +FollowSymLinks
+
+RewriteBase /testengine
+
+
+
+RewriteCond %{REQUEST_URI} !^.*(css|gif|js|png)$
+RewriteRule ^(.*)$ index.php [QSA] 
