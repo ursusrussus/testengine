@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+div.answarea {
+	width:100%;
+	padding-left:15px;
+}
+
+div.ansitem {
+	overflow:hidden;
+	padding-top:6px;
+	padding-bottom:6px;
+}
+
+div.chkboxarea {
+	
+	float:left; 
+	width:30;
+	/*background-color:red;*/
+}
+
+div.enum {
+	margin-left:3px;
+	/*background-color:yellow;*/
+	float:left;
+}
+
+div.answtext {
+	margin-left:3px;
+	/*background-color:green;*/
+	float:left;
+}
+
+div.extbuttonarea {
+	margin-top:60px;
+}
+
+div.solving {
+	margin-top:34px;
+}
+
+.solving .answtext {
+	max-width:750px;
+}
+
+.solving .testcaption {
+	font-size:90%; 
+	margin-bottom:50px;
+}
+
+.marked {
+	background-color:#92B901;
+}

@@ -1,0 +1,2 @@
+jfill();
+solve_bind();

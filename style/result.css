@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+
+.restable .reswrap {
+	border-style:solid;
+	border-width:1px;
+	margin-top:3px;
+}
+
+.restable .qcollapsed {
+	background-color:palegreen;
+	overflow:hidden;
+	display:block;
+}
+
+.restable .qnumber {
+	float:left; 
+	width:30px; 
+	margin-right:-30px; 
+	font-weight:bolder;
+}
+
+.restable .qanswarea {
+	margin-left:30px; 
+	margin-top:10px;
+}
+
+.qanswarea .plain {
+	padding:3px;
+}
+
+.qanswarea .awrong {
+	background-color:tomato; 
+	padding:3px;
+}
+
+.qanswarea .aselect {
+	border-style:solid;
+	border-color:palegreen;
+	border-width:3px;
+}

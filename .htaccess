@@ -1,11 +1,12 @@
-DirectoryIndex index.php
 RewriteEngine on
-
+Options -Indexes
 Options +FollowSymLinks
-
-RewriteBase /testengine
-
+Options -MultiViews
 
 
-RewriteCond %{REQUEST_URI} !^.*(css|gif|js|png)$
-RewriteRule ^(.*)$ index.php [QSA] 
+RewriteBase /test_call_method/templates
+
+RewriteCond %{REQUEST_URI} !^.*[\.]css|gif|js|png|php$
+RewriteRule ^(.*)$ index.php?q=$1 
+
+ErrorDocument 404 error.php 

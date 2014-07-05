@@ -1,0 +1,102 @@
+@CHARSET "UTF-8";
+
+div.cc_wide {
+	overflow:hidden;
+	padding-top:14px;
+	padding-bottom:70px;
+	width:1000px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	z-index:100;
+		
+}
+
+
+
+div.description_icon {
+	margin:15px;
+}
+
+div.datarow {
+	overflow:hidden;
+	margin-top:4px;
+	background-color:#CDCDCD;
+}
+
+div.eqcol {
+	padding-bottom:60px;
+	margin-bottom:-60px;
+	border-left-style:solid;
+	border-left-width:2px;
+	border-left-color:white;
+}
+	
+	
+
+div.tablecaption {
+	border-style:solid;
+	border-width:1px;
+	padding:10px;
+	height:30px;
+	margin-right:1px;
+	margin-left:1px;
+
+}
+
+div.captionrow {
+	overflow:hidden;
+}
+
+.mixitem {
+	margin-left:15px;
+}
+
+div.tablearea {
+	width:800px;
+}
+
+.datarow .testname {
+	width:498px;
+}
+
+.datarow .year {
+	width:98px;
+}
+
+.datarow .theme {
+	width:98px;
+}
+
+.datarow .number {
+	width:98px;
+}
+
+.captionrow .testname {
+	width:500px;
+}
+
+.captionrow .year {
+	width:100px;
+}
+
+.captionrow .theme {
+	width:100px;
+}
+
+.captionrow .number {
+	width:100px;
+}
+
+div.tdat {
+	min-height:30px;
+	margin-right:1px;
+	margin-left:1px;
+	padding-left:10px;
+	padding-right:10px;
+	padding-top:4px;
+}
+
+div.greyarea {
+	background-color:#E6E6E6;
+}
